@@ -16,7 +16,7 @@ public class Member {
     @GeneratedValue
     private Long id;
 
-    private String username;
+    private String name;
 
     @Embedded
     private Address address;
