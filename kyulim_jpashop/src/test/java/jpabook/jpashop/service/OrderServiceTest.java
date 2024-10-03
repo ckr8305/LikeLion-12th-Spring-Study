@@ -82,11 +82,11 @@ public class OrderServiceTest {
         fail("재고 수량 부족 예외가 발생해야 한다.");
     }
 
-    private Book createBook(String name, int price, int sockQuantity) {
+    private Book createBook(String name, int price, int stockQuantity) {
         Book book = new Book();
         book.setName(name);
         book.setPrice(price);
-        book.setSockQuantity(sockQuantity);
+        book.setSockQuantity(stockQuantity);
         em.persist(book);
         return book;
     }
