@@ -32,3 +32,9 @@ public class MemberRepository {
                 .getResultList();
     }
  }
+
+ /*
+     public interface MemberRepository extends JpaRepository<Member, Long> {
+     List<Member> findByName(String name);
+    }
+*/
